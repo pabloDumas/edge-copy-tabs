@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Open Tabs URLs (Local)",
+  "version": "1.1.0",
+  "description": "Copies URLs from open tabs and exports/imports them via clipboard or text file. No network calls.",
+  "action": {
+    "default_title": "Copy Tabs",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "downloads"],
+  "host_permissions": []
+}
